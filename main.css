@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700");
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 50px;
+}
+
+body #tweet-list li span {
+  background: #ffa2a2;
+}
+
+body #tweet-list span:hover {
+  cursor: pointer;
+  background: #d50000;
+}
+/*# sourceMappingURL=main.css.map */

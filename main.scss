@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700');
+$anchorColor: #d50000;
+
+body {
+    font-family: 'Comfortaa',
+        cursive;
+    margin: 50px;
+
+    #tweet-list {
+        li {
+            span {
+                background: lighten($anchorColor, 40%)
+            }
+        }
+
+        span:hover {
+            cursor: pointer;
+            background: $anchorColor;
+        }
+    }
+}
